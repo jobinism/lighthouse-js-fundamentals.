@@ -8,9 +8,9 @@ const stations = [
 function chooseStations(stations) {
   for(const station of stations){
     const capacity = station[1];
-    const type = station[2];
     if (capacity >= 20) {
-      if (type === "school") {
+      const type = station[2];
+      if (type === 'school') {
         console.log(station[0]);
       }
     }

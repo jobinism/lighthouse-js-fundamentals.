@@ -2,7 +2,7 @@ const raining = true;
 const cold = false;
 const temperature = 10;
 
-if (raining) {
+if (raining)  {
   console.log("Don't forget an umbrella!");
 
 } else {

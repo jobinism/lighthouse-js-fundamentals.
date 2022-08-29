@@ -1,10 +1,10 @@
 const urlEncode = function(text) {
-var encodedString = encodeURIComponent(text)
-  for (var i = 0;i < text.length; i++ ) {
+  let encodedString = encodeURIComponent(text);
+  for (let i = 0; i < text.length; i++) {
     return encodedString;
   }
 
-}
+};
 
 
 console.log(urlEncode("Lighthouse Labs"));

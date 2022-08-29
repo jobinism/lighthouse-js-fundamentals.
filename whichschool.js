@@ -1,3 +1,3 @@
-const whichSchool = function (age) {
+const whichSchool = function(age) {
   
-}
+};

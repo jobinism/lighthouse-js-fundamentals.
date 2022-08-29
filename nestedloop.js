@@ -9,4 +9,4 @@ for (let i = 0; i < bobsFollowers.length; i++) {
   }
   
 }
-console.log(mutualFollowers)
+console.log(mutualFollowers);

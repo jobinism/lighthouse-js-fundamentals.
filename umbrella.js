@@ -3,19 +3,19 @@ let umbrella = {
   isOpen: false,
   open: function() {
     if (umbrella.isOpen === true) {
-      return "The umbrella is already open!"
+      return "The umbrella is already open!";
     } else {
-      umbrella.isOpen = true; 
+      umbrella.isOpen = true;
       return "Julia opens the umbrella";
     }
 
   },
-  close: function() { 
+  close: function() {
     if (umbrella.isOpen === false) {
-        return "The umbrella is already closed!";
+      return "The umbrella is already closed!";
     } else {
-        umbrella.isOpen = false;
-        return "Julia closes the umbrella!";
+      umbrella.isOpen = false;
+      return "Julia closes the umbrella!";
     }
- }
-}
+  }
+};

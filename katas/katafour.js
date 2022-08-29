@@ -2,14 +2,14 @@ const instructorWithLongestName = function(instructors) {
   let str = instructors.split("");
   let longest = 0;
   let word = null;
-  for (var i = 0; i < str.length; i++) {
+  for (let i = 0; i < str.length; i++) {
     if (longest < str[i.length]) {
       longest = str[i].length;
       word = str[i];
     }
   }
   return word;
-}
+};
 
 
 console.log(instructorWithLongestName([

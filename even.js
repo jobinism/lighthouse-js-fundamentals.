@@ -1,6 +1,6 @@
-const isEven  = function (num) {
+const isEven  = function(num) {
   return num % 2 === 0;
-}
+};
 
 const twentyThreeIsEven = isEven(23);
 const fortyFourIsEven = isEven(44);

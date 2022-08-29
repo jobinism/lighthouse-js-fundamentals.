@@ -1,8 +1,8 @@
-const carPassing = function (cars, speed) {
-  var newCar = {
+const carPassing = function(cars, speed) {
+  let newCar = {
     time: Date.now(),
     speed: 39
-   };
-  cars.push(newCar)
+  };
+  cars.push(newCar);
   return cars;
-  }
+};

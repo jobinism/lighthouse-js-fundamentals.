@@ -6,7 +6,7 @@ if (raining)  {
   console.log("Don't forget an umbrella!");
 
 } else {
-  console.log("Skies are clear!")
+  console.log("Skies are clear!");
 }
 
 if (temperature < 0) {
@@ -15,7 +15,7 @@ if (temperature < 0) {
 } else if (temperature < 15) {
   console.log("Short sleeves won't cut it.");
 } else {
-  console.log("Short sleeves are fine.")
+  console.log("Short sleeves are fine.");
 }
 
-console.log("Now you're ready to go outside!")
+console.log("Now you're ready to go outside!");
